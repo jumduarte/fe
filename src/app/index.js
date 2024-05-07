@@ -21,13 +21,13 @@ export default function App() {
       <InputTexto dica="Número de celular ou email" />
       <InputTexto dica= "senha" seguranca={true}/>
 
-      <Botao btn="entrar" cor='#0000FF' src='home' />
+      <Botao btn="entrar" cor='#0000FF' src='home' cortexto = '#fff' tm = '22%' />
       <View style={styles.cont}>
         <View style={styles.line} />
         <Text style={styles.text} >ou</Text>
         <View style={styles.line}></View>
       </View>
-      <Botao btn="criar nova conta" src='excluido' />
+      <Botao btn="criar nova conta" src='excluido' tm = '13%' />
 
     </View>
   );
